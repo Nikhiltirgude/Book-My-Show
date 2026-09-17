@@ -13,4 +13,5 @@ public class BookTicketRequest {
     private Integer showId;
     private List<String> seatList;
     private SeatTypes seatTypes;
+    private String emailId;
 }

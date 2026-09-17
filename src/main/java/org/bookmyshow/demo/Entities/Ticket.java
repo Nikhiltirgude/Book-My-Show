@@ -24,4 +24,8 @@ public class Ticket {
     @JoinColumn
     @ManyToOne
     private Show show_ticket;
+
+    @JoinColumn
+    @ManyToOne
+    private User user;
 }
